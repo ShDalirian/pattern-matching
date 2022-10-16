@@ -8,7 +8,7 @@ for y in range(pattern.shape[0]):
     for x in range(pattern.shape[1]):
         if (y>pattern.shape[0]//4 and x>pattern.shape[1]//4) and (y<3*pattern.shape[0]//4 and x<3*pattern.shape[1]//4):
             pattern[y,x]=np.zeros((1,1),dtype=np.uint8)
-
+cv2.imwrite("pattern1.jpg",pattern)
 img=255*np.ones((50,50,1),dtype=np.uint8)
 for y in range(img.shape[0]):
     for x in range(img.shape[1]):
@@ -26,4 +26,5 @@ else:
 
     BGR_image = cv2.rectangle(BGR_image,top_left_corner, bottom_right_corner, (0,0,255), 2)     
     cv2.imshow("pattern",BGR_image)
+    cv2.imwrite("BGR_detected.jpg",BGR_image)
     cv2.waitKey(0)

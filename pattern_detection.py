@@ -14,7 +14,7 @@ def array_equality(a,b,tol:int=10):
     return equality/a.size
 
 
-def pattern_similarity(in_img,pattern,tol:int=20, is_background_black:bool=True,min_similarity:float=0.8):
+def pattern_similarity(in_img,pattern,min_similarity:float=0.8):
     #location=np.array([0,0],dtype=bool)
     x_step:int=pattern.shape[1]
     y_step:int=pattern.shape[0]
