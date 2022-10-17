@@ -16,7 +16,6 @@ pattern_similarity(in_img,pattern,min_similarity:float=0.8) => it has three inpu
 ## example:
 here is some examples:<br />
 ### example 1:
-original image is:<br />
-!["original image"](initial_img.jpg)<kbd /><br />
+<kbd>!["original image"](initial_img.jpg)<br />
 ![pattern image](pattern1.jpg)<br />
-![detected pattern image](BGR_detected.jpg)<br />
+![detected pattern image](BGR_detected.jpg)<kbd /><br />
