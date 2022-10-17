@@ -1,4 +1,4 @@
-# pattern_detection_grayscale
+# pattern-matching object-detection symbol-detection
 pattern_detection_grayscale<br />
 first of all I apologize for my english. (;<br />
 Here i create some codes to be published about pattern detection in image.<br />
