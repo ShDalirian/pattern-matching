@@ -17,5 +17,6 @@ pattern_similarity(in_img,pattern,min_similarity:float=0.8) => it has three inpu
 here is some examples:<br/>
 ### example 1:
 ![Uploading BGR_detected.jpg…]()
+![alt text](BGR_detected.jpg)
  
  
