@@ -18,6 +18,3 @@ here is some examples:<br />
 ### example 1:
 original image is:<br />
 <kbd>![original image](initial_img.jpg)<kbd/>
-<br />
-<kbd><img src="BGR_detected.jpg" alt="Employee data" title="image with detected pattern"><kbd/>
-the image with detected pattern is:<kbd>![alt text](BGR_detected.jpg)<kbd/>
