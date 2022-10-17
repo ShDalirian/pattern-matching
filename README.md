@@ -18,6 +18,4 @@ here is some examples:<br/>
 ### example 1:
 original image is:<br/>
 <kbd>![alt text](initial_img.jpg?raw=true "original image")<kbd/>
-<br/>
-pattern image is:<kbd>![alt text](pattern1.jpg)<kbd/>
-the image with detected pattern is:<kbd>![alt text](BGR_detected.jpg)<kbd/>
+
