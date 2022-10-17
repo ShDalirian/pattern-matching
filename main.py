@@ -14,7 +14,7 @@ for y in range(img.shape[0]):
     for x in range(img.shape[1]):
         if (y>pattern.shape[0]//4 and x>pattern.shape[1]//4) and (y<3*pattern.shape[0]//4 and x<3*pattern.shape[1]//4):
             img[y,x]=np.zeros((1,1),dtype=np.uint8)
-
+cv2.imwrite("initial_img.jpg",img)
 pattern_area=pattern_similarity(img,pattern,min_similarity)
 if pattern_area[2]<min_similarity:
     print("there is no pattern in image")
