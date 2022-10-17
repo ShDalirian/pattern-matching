@@ -14,10 +14,10 @@ detect pattern in any desired shape in any desired input image shape
 the most important part of this code is pattern_similarity function.
 pattern_similarity(in_img,pattern,min_similarity:float=0.8) => it has three input parameters which the last one is optional and it is by defualt equal to 80% similarity to detect pattern in image
 ## example:
-here is some examples:<br/>
+here is some examples:<br />
 ### example 1:
-original image is:<br/>
+original image is:<br />
 <kbd>![alt text](initial_img.jpg?raw=true "original image")<kbd/>
-<br/>
-pattern image is:<kbd><img src="BGR_detected.jpg" alt="Employee data" title="image with detected pattern"><kbd/>
+<br />
+<kbd><img src="BGR_detected.jpg" alt="Employee data" title="image with detected pattern"><kbd/>
 the image with detected pattern is:<kbd>![alt text](BGR_detected.jpg)<kbd/>
