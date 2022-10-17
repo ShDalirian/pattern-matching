@@ -16,6 +16,8 @@ pattern_similarity(in_img,pattern,min_similarity:float=0.8) => it has three inpu
 ## example:
 here is some examples:<br/>
 ### example 1:
-original image is:<kbd>![alt text](initial_img.jpg)<kbd/>
+original image is:<br/>
+<kbd>![alt text](initial_img.jpg)<kbd/>
+<br/>
 pattern image is:<kbd>![alt text](pattern1.jpg)<kbd/>
 the image with detected pattern is:<kbd>![alt text](BGR_detected.jpg)<kbd/>
